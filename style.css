@@ -1,9 +1,9 @@
 CSS
 body {
-    background-color: #000000; /* Fundo cinza claro */
-    font-family: Arial, sans-serif;
+        background-color: black;
     
-}
+    font-family: Arial, sans-serif;}
+    
 
 .button {
     padding: 15px 32px;
@@ -19,7 +19,7 @@ body {
 p {
     font-family: 'Comic Sans MS', cursive;
     font-size: 60px;
-    color: #fff;
+    color: #000000;
     text-shadow: 2px 2px 4px #000;
     background: linear-gradient(to right, #0800ff, #ffc48c);
     -webkit-background-clip: text;
@@ -28,7 +28,7 @@ p {
   }
   
   p:hover {
-    color: #fff;
+    color: #000000;
     transform: scale(1.2);
   }
 
@@ -41,4 +41,13 @@ p {
 #nao {
     background-color: #f44336; /* Vermelho */
     color: white;
+}
+footer {
+    text-align: center;
+    font-size: 14px;
+    color: #1e00ff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #000000;
 }
